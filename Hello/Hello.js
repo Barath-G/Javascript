@@ -7,8 +7,8 @@ console.log(a==2 || a==10);*/
 //var name = "B";
 //let msg = "Im learning JS";
 let person = {
-    name: "Nithi",
+    name: "N",
     age: 25,
-    address: "Kailasa"
+    address: "K"
 }
 console.log(person)
