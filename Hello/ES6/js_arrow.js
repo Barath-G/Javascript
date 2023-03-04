@@ -6,4 +6,3 @@ Arrow functions are not supported in IE11 or earlier.
 const x = (x, y) => x * y;{
 document.getElementById("demo").innerHTML = x(5, 5);
 }
-console.log(x)
