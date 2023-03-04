@@ -1,0 +1,26 @@
+Callback: While invoking a function, passing a function a argument to another function
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <Script>
+        function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+myFirst();
+mySecond();
+    </Script>
+</body>
+</html>
