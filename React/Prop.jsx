@@ -10,3 +10,4 @@ let CompA = () => {
         <CompB hero_Name={"RajniKanthi"} hero_In={"Nayana"} />
     </div>
 }
+export default CompA
