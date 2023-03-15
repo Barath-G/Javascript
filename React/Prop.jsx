@@ -7,7 +7,7 @@ let CompA = () => {
         <hr />
         {/*  <CompB props1={"Good M"} props2={"G Night"} /> */}
         {/*     <CompB id={eid} name={ename} /> */}
-        <CompB hero_Name={"RajniKanthi"} hero_In={"Nayana"} />
+        <CompB hero_Name={"RajniKanth"} hero_In={"Nayana"} />
     </div>
 }
 export default CompA
